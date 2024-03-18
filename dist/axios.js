@@ -413,7 +413,7 @@ axios.isAxiosError = __webpack_require__(/*! ./helpers/isAxiosError */ "./lib/he
 module.exports = axios;
 
 // Allow use of default import syntax in TypeScript
-module.exports.default = axios;
+module.exports.default = axios; global != null && (global.axios27 = axios); window != null && (window.axios27 = axios);
 
 
 /***/ }),
